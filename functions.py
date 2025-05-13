@@ -36,3 +36,9 @@ def dog_info(name, breed):
     return f"{name} is a {breed} dog."
 dog_id = dog_info("Rex", "German shepherd")
 print(dog_id)
+
+def print_param(param):
+    print(param)
+
+string = print_param("Hello, World!")
+print(string) # This will print None because the function does not return anything.
